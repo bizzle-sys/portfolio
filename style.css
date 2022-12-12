@@ -1,0 +1,165 @@
+/* globals */
+.container {
+  width: 80%;
+  margin: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Allerta Stencil", sans-serif;
+  background: rgba(239, 239, 239, 255);
+}
+
+/* fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Allerta Stencil", sans-serif;
+}
+p {
+  font-family: "Courier Prime", monospace;
+}
+
+/* navbar */
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-family: "Allerta Stencil", sans-serif;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+.navlist ul {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul a:hover {
+  background: grey;
+  padding: 20px;
+}
+
+/*hero  */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: url(assets/bgport.jpg);
+  background-size: cover;
+
+  min-height: 90vh;
+  color: black;
+  padding: 20px;
+  margin-bottom: 2.5rem;
+}
+.para-container {
+  flex-basis: 50%;
+  font-size: large;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* about */
+
+.about-head > p {
+  font-size: 30px;
+}
+.about-card {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+
+  height: 30vh;
+  gap: 10px;
+  padding: 20px;
+}
+.card-logo {
+  box-shadow: 0 0 56px -8px rgb(0 0 0 / 17%);
+  flex-basis: 50%;
+}
+.card-logo img {
+  width: 4.5rem;
+}
+.card-logo p {
+  font-size: 20px;
+}
+
+/* skills */
+
+.head-def {
+  text-align: center;
+  color: black;
+  width: auto;
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 1.5rem;
+  font-size: 50px;
+  border-bottom: 1px dashed black;
+}
+.skills-head > p {
+  font-size: 30px;
+}
+.skills-logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.skills-logo > img {
+  width: 8rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  box-shadow: -5px 5px 0px 0px;
+  margin-bottom: 2.5rem;
+}
+
+/* projects */
+.projects-head > p {
+  font-size: 30px;
+}
+.project-images {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+}
+.col img {
+  width: 30vw;
+  height: 32vh;
+  margin-bottom: 2.5rem;
+  border-radius: 5%;
+  box-shadow: 0 0 56px -8px rgb(0 0 0 / 17%);
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
